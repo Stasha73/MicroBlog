@@ -37,7 +37,7 @@ import java.util.Scanner;
 
                 Scanner keyboard = new Scanner(System.in);
 
-                int selection = 0;
+                int selection;
 
                 do {
                     System.out.println("What would you like to do today? ");
@@ -94,7 +94,7 @@ import java.util.Scanner;
                     System.out.println(post.toStringPost());
                 }
                 System.out.println("--------------------");
-                System.out.println("");
+                System.out.println(" ");
 
             }
 
@@ -105,19 +105,10 @@ import java.util.Scanner;
                     System.out.println(user.toStringUser());
                 }
                 System.out.println("-------------------------");
-                System.out.println("");
+                System.out.println(" ");
 
             }
-            //public User selectUser(){
-            //  User user = new User();
-            //int selectUser;
-            //System.out.println("Please select a user.");
-            //for (int i = 0; i < userLog.size(); i++) {
-            //  System.out.println(userLog.get(i));
-            //  }
-            //selectUser = keyboard.nextInt();
-            //}
-            //return private String selectUser(User user)
+
         }
 
 
