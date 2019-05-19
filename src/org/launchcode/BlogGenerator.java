@@ -35,7 +35,7 @@ public class BlogGenerator {
         }while (!validate.toLowerCase().equals("y")) ;
             return newPost;
         }
-        //get user info from the user class
+        //get user info from the user class to create a new user
 
     private User createUser() {
         User user = new User();
@@ -51,7 +51,7 @@ public class BlogGenerator {
         return user;
     }
             // get post info from the post class
-            public Post createPost(User user){
+    public Post createPost(User user){
         Post newPost = new Post();
         newPost.setUser(user);
         System.out.println("Please enter your post ");
